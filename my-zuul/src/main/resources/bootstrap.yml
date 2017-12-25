@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: zuul-api
+  cloud:
+        config:
+  #        name: order-service
+          uri: http://config-server-two:7667
+          lable: master
+
+zuul:
+#    url类型的限流就是通过请求路径区分
+#    origin是通过客户端IP地址区分
+#    user是通过登录用户名进行区分，也包括匿名用户
+#    也可以多个限流类型结合使用
+#    如果不配置限流类型，就不做以上区分
+  ratelimit:
+    enabled: true
+    policies:
+      order-service:
+        limit: 3
+        refresh-interval: 60
+        type: origin
+

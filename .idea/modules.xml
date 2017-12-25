@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods-service/goods-service.iml" filepath="$PROJECT_DIR$/goods-service/goods-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goodsservice/goodsservice.iml" filepath="$PROJECT_DIR$/goodsservice/goodsservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-zuul/my-zuul.iml" filepath="$PROJECT_DIR$/my-zuul/my-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myzuul/myzuul.iml" filepath="$PROJECT_DIR$/myzuul/myzuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderservice/orderservice.iml" filepath="$PROJECT_DIR$/orderservice/orderservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+    </modules>
+  </component>
+</project>

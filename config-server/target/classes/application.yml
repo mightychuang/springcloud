@@ -1,0 +1,17 @@
+server:
+    port: 7667
+spring:
+    application:
+        name: config-server
+    cloud:
+        config:
+            server:
+                git:
+                    uri: http://10.41.3.140/root/config-demo.git
+                    searchPaths: my-sample-config
+eureka:
+    instance:
+        hostname: config-server-two
+    client:
+        serviceUrl:
+            defaultZone: http://eureka-server-one:8761/eureka/,http://eureka-server-two:8762/eureka/,http://eureka-server-three:8763/eureka/

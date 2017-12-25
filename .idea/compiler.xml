@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="configserver" />
+        <module name="eureka" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="eurekaserver" />
+        <module name="goods-service" />
+        <module name="goodsservice" />
+        <module name="my-zuul" />
+        <module name="myzuul" />
+        <module name="order-service" />
+        <module name="orderservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-server" target="1.6" />
+      <module name="configserver" target="1.6" />
+      <module name="eureka" target="1.6" />
+      <module name="eureka-client" target="1.6" />
+      <module name="eureka-server" target="1.6" />
+      <module name="eurekaserver" target="1.6" />
+      <module name="goods-service" target="1.6" />
+      <module name="goodsservice" target="1.6" />
+      <module name="my-zuul" target="1.6" />
+      <module name="myzuul" target="1.6" />
+      <module name="order-service" target="1.6" />
+      <module name="orderservice" target="1.6" />
+      <module name="springcloud" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

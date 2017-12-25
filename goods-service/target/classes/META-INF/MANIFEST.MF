@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: goods-service
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: zhangy1101
+Implementation-Vendor-Id: com.zhy
+Build-Jdk: 1.8.0_112-ea
+Implementation-URL: http://maven.apache.org/goods-service
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

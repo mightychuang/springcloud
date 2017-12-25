@@ -1,0 +1,17 @@
+server:
+  port: 8763
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: eureka-server-three
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://eureka-server-one:8761/eureka/,http://eureka-server-two:8762/eureka/,http://eureka-server-three:8763/eureka/
+#  server:
+#    enable-self-preservation: true
